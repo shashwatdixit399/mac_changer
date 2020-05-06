@@ -41,7 +41,7 @@ def check_interface_exists(interface):
 
 
 arg=get_arguments()
-check_interface_exists(arg.interface)
+#check_interface_exists(arg.interface)
 cur_mac=get_cur_mac(arg.interface)
 print("[+]The Current MAC Address is "+cur_mac)
 change_mac(arg.interface,arg.new_mac)
